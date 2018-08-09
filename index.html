@@ -4,13 +4,58 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
   <title>ToDo List</title>
 </head>
 <body>
-  <h1 class="h1">My Todo List</h1>
-  <h4>What do you want to do?</h4>
-  <input type="text">
+  <form name="todo-form">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <h1 class="h1">My Todo List</h1>
+          <h4>What do you want to do?</h4>
+          <input type="text" name="task" class="input">
+          <h4>Enter a description below</h4>
+          <input type="text" name="desc" class="input"></br>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </form>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Todo</h2>
+      </div>
+      <div class="col-md-6">
+        <h2>Done</h2>
+      </div>
+    </div>
+  </div>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-md-2">
+        <h4>Task</h4>
+      </div>
+      <div class="col-md-2">
+        <h4>Description</h4>
+      </div>
+      <div class="col-md-2">
+        <h4>Action</h4>
+      </div>
+      <div class="col-md-2">
+        <h4>Task</h4>
+      </div>
+      <div class="col-md-2">
+        <h4>Description</h4>
+      </div>
+      <div class="col-md-2">
+        <h4>Action</h4>
+      </div>
+    </div>
+  </div>
+  <!--<script src="js/bootstrap.min.js"></script> -->
   <script src="js/scripts.js"></script>
 </body>
 </html>
