@@ -20,7 +20,8 @@ function newTask(task, desc) {
     let thirdDiv = document.createElement("div");
     thirdDiv.classList.add("col-md-2");
     secondDiv.appendChild(thirdDiv);
-    
+    let newH5 = document.createElement("h5");
+    newH5.textContent = taskInput;
   }
 }
 
